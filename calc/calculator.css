@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+}
