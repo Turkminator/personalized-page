@@ -5,6 +5,14 @@ body{
 }
 
 .container{
-    display: grid;
-    grid-template-columns: repeat(4, 100px);
+    border: solid 2px green;
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    width: 100px; /* Fixed width for each item */
+    height: 100px; /* Fixed height for each item */
+    box-sizing: border-box; /* Include padding and border in the width and height */
+    padding: 10px; /* Padding for each item */
+    margin: 0 0 10 10;
 }
